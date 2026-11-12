@@ -4,22 +4,22 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)]()
 [![Gradio](https://img.shields.io/badge/Gradio-Web%20App-yellow.svg)]()
 
-An automated deep learning classification and routing web application developed for **KHILONA**, a leading toy factory specializing in high-quality toy parts[cite: 216]. This system classifies incoming plastic objects by color using a custom Convolutional Neural Network (CNN) trained completely from scratch and maps them to their respective conveyor belts without using any pre-trained models or rule-based `if-else` branching[cite: 216, 219, 222, 223].
+An automated deep learning classification and routing web application developed for **KHILONA**, a leading toy factory specializing in high-quality toy parts. This system classifies incoming plastic objects by color using a custom Convolutional Neural Network (CNN) trained completely from scratch and maps them to their respective conveyor belts without using any pre-trained models or rule-based `if-else` branching.
 
 ---
 
 ## 🏭 Project Overview & Problem Statement
 
-At the KHILONA manufacturing facility, sorting plastic components efficiently is crucial for production. The automated conveyor belt system sorts incoming plastic objects into three distinct streams based on color[cite: 216]:
-* 🔵 **Blue Objects** $\rightarrow$ **Conveyor Belt A**[cite: 216]
-* 🟡 **Yellow Objects** $\rightarrow$ **Conveyor Belt B**[cite: 216]
-* 🟣 **Purple Objects** $\rightarrow$ **Conveyor Belt C**[cite: 216]
+At the KHILONA manufacturing facility, sorting plastic components efficiently is crucial for production. The automated conveyor belt system sorts incoming plastic objects into three distinct streams based on color:
+* 🔵 **Blue Objects** $\rightarrow$ **Conveyor Belt A**
+* 🟡 **Yellow Objects** $\rightarrow$ **Conveyor Belt B**
+* 🟣 **Purple Objects** $\rightarrow$ **Conveyor Belt C**
 
 ### Key Constraints & Design Principles:
-* **Custom Dataset:** Built entirely from scratch using real-world photos captured by the team (no internet or public datasets like ImageNet used)[cite: 216, 217].
-* **No Pretrained Weights:** Trained completely from scratch; all network weights start random and are learned solely from our collected dataset[cite: 219, 221].
-* **No Data Augmentation:** Relied strictly on authentic physical variations in lighting, background angles, and object positions rather than synthetic image transforms[cite: 217, 219].
-* **Zero `if-else` Logic for Prediction:** Uses dynamic array mapping and list index lookups for clean, conditional-free model inference[cite: 223].
+* **Custom Dataset:** Built entirely from scratch using real-world photos captured by us (no internet or public datasets like ImageNet used).
+* **No Pretrained Weights:** Trained completely from scratch; all network weights start random and are learned solely from our collected dataset.
+* **No Data Augmentation:** Relied strictly on authentic physical variations in lighting, background angles, and object positions rather than synthetic image transforms.
+* **Zero `if-else` Logic for Prediction:** Uses dynamic array mapping and list index lookups for clean, conditional-free model inference.
 * **Dual Interfaces:** Includes both a command-line interpreter (`predict.py`) and an elegant light-theme Gradio web interface (`app.py`) featuring an interactive 3D factory visualization (`scene.html`).
 
 ---
@@ -185,8 +185,6 @@ To run the interactive Gradio web interface featuring live classification and 3D
 
 ```bash
 python app.py
-
-```
 
 Open the local URL generated in your terminal (typically `http://127.0.0.1:7860`) in your web browser.
 
