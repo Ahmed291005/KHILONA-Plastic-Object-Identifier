@@ -26,7 +26,9 @@ At the KHILONA manufacturing facility, sorting plastic components efficiently is
 
 ## 🎥 Project Demo
 
-<video src="https://github.com/Ahmed291005/KHILONA-Plastic-Object-Identifier-/raw/main/demo.mp4" autoplay loop muted playsinline width="100%"></video>
+![Demo GIF](demo.gif)
+
+> A short demo showcasing the clean UI of our CNN object classifier, image upload, and automated routing to Conveyor Belts A, B, and C.
 
 ---
 
