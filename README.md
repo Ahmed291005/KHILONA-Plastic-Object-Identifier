@@ -27,7 +27,7 @@ At the KHILONA manufacturing facility, sorting plastic components efficiently is
 ## 🎥 Project Demo
 
 <p align="center">
-  <img src="demo.gif" alt="KHILONA Live Demo" width="85%" />
+  <img src="demo.gif" alt="KHILONA Live Demo"/>
 </p>
 
 > A short demo showcasing the clean UI of our CNN object classifier, image upload, and automated routing to Conveyor Belts A, B, and C.
