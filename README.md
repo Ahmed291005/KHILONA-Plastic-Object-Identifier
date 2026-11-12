@@ -26,7 +26,9 @@ At the KHILONA manufacturing facility, sorting plastic components efficiently is
 
 ## 🎥 Project Demo
 
-[![Watch the Demo](preview.png)](https://github.com/your-username/your-repo-name/raw/main/demo.mp4)
+[![Watch the Demo](preview.png)](https://github.com/Ahmed291005/KHILONA-Plastic-Object-Identifier-/raw/main/demo.mp4)
+
+---
 
 ## 📂 Repository Structure
 
