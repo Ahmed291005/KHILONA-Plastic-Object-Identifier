@@ -24,6 +24,10 @@ At the KHILONA manufacturing facility, sorting plastic components efficiently is
 
 ---
 
+## 🎥 Project Demo
+
+[![Watch the Demo](preview.png)](https://github.com/your-username/your-repo-name/raw/main/demo.mp4)
+
 ## 📂 Repository Structure
 
 ```text
@@ -39,11 +43,11 @@ KHILONA-Plastic-Object-Identifier/
 │       ├── B_yellow/
 │       └── C_purple/
 │
-├── khilona_model.keras         # Saved trained CNN model file[cite: 222]
+├── khilona_model.keras         # Saved trained CNN model file
 ├── app.py                      # Gradio web application script
 ├── scene.html                  # Interactive 3D factory visualization component
 ├── train.py                    # Model training script
-├── predict.py                  # CLI prediction module (No if/else)[cite: 223]
+├── predict.py                  # CLI prediction module
 └── README.md                   # Project documentation
 
 ```
