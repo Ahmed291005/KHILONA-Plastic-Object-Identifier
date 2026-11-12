@@ -1,4 +1,3 @@
-```markdown
 # 🧸 KHILONA: Plastic Object Identifier & Sorting System
 
 [![Course: Artificial Intelligence](https://img.shields.io/badge/Course-Artificial%20Intelligence-blue.svg)]()
