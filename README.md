@@ -186,8 +186,8 @@ To run the interactive Gradio web interface featuring live classification and 3D
 ```bash
 python app.py
 
-Open the local URL generated in your terminal (typically `http://127.0.0.1:7860`) in your web browser.
-
 ```
+
+Open the local URL generated in your terminal (typically `http://127.0.0.1:7860`) in your web browser.
 
 ```
